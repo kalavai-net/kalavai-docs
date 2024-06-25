@@ -9,10 +9,6 @@
       
       
       
-        <link rel="prev" href="../developers/">
-      
-      
-        <link rel="next" href="../faqs/">
       
       
       <link rel="icon" href="../assets/icons/favicon.png">
@@ -20,7 +16,7 @@
     
     
       
-        <title>Share your device - Kalavai Docs</title>
+        <title>Kalavai: a marketplace for computation to make AI accessible - Kalavai Docs</title>
       
     
     
@@ -72,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#share-your-device" class="md-skip">
+        <a href="#kalavai-a-marketplace-for-computation-to-make-ai-accessible" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Share your device
+              Kalavai: a marketplace for computation to make AI accessible
             
           </span>
         </div>
@@ -252,30 +248,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Share your device
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../hosts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -284,62 +260,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#technical-requirements" class="md-nav__link">
-    <span class="md-ellipsis">
-      Technical requirements
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#install-linux" class="md-nav__link">
-    <span class="md-ellipsis">
-      Install (Linux)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#install-windows" class="md-nav__link">
-    <span class="md-ellipsis">
-      Install (Windows)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#use-kalavai-client" class="md-nav__link">
-    <span class="md-ellipsis">
-      Use kalavai-client
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -391,36 +311,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#technical-requirements" class="md-nav__link">
+  <a href="#accessible-ai-for-all" class="md-nav__link">
     <span class="md-ellipsis">
-      Technical requirements
+      Accessible AI for all
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#install-linux" class="md-nav__link">
+  <a href="#a-community-owned-cloud" class="md-nav__link">
     <span class="md-ellipsis">
-      Install (Linux)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#install-windows" class="md-nav__link">
-    <span class="md-ellipsis">
-      Install (Windows)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#use-kalavai-client" class="md-nav__link">
-    <span class="md-ellipsis">
-      Use kalavai-client
+      A community-owned cloud
     </span>
   </a>
   
@@ -441,50 +343,9 @@
                   
 
 
-<h1 id="share-your-device">Share your device</h1>
-<p>The Kalavai-client is an app that allows you to control when and how to share your device. To get started with sharing, you'll need your kalavai account credentials. Click below to create one. Then you are ready to install and run the kalavai-client, which will let you share your device's spare capacity with the world and earn!</p>
-<p><a class="md-button md-button--primary" href="https://platform.kalavai.net">Create an account</a></p>
-<h2 id="technical-requirements">Technical requirements</h2>
-<p>The kalavai client app currently supports the following architectures:</p>
-<ul>
-<li>amd64</li>
-<li>x86_64</li>
-</ul>
-<p>The following OS are supported:</p>
-<ul>
-<li>Linux (Debian, CentOS, SuSe, Ubuntu, Fedora, RedHat).</li>
-</ul>
-<p>If your system is not currently supported, open an issue <a href="https://github.com/kalavai-net/kalavai-client/issues">here</a> and request it. We are expanding this list constantly.</p>
-<h2 id="install-linux">Install (Linux)</h2>
-<p>To install the kalavai client app that allows you to share your device and earn, use the following installer:</p>
-<pre><code class="language-bash">curl -sfL https://raw.githubusercontent.com/kalavai-net/kalavai-client/main/scripts/install_client.sh | bash -
-</code></pre>
-<h2 id="install-windows">Install (Windows)</h2>
-<p>[Coming soon!]</p>
-<h2 id="use-kalavai-client">Use kalavai-client</h2>
-<p>Once it's installed, run the CLI app with:</p>
-<pre><code class="language-bash">kalavai --help
-</code></pre>
-<pre><code class="language-bash">usage: kalavai [-h] command ...
-
-positional arguments:
-  command
-    login     Login with your Kalavai user email and password. Get an account from https://platform.kalavai.net
-    logout    Logout from your kalavai user account.
-    start     Join Kalavai cluster and start/resume sharing resources.
-    status    Check the current status of your device.
-    stop      Stop sharing your device and clean up. DO THIS ONLY IF YOU WANT TO REMOVE KALAVAI-CLIENT from your device.
-    pause     Pause sharing your device and make your device unavailable for kalavai scheduling.
-
-options:
-  -h, --help  show this help message and exit
-</code></pre>
-<p>To start sharing your device, log in with the client and start sharing:</p>
-<pre><code class="language-bash">kalavai login --useremail your@email.address --password your-password
-kalavai start
-</code></pre>
-<p>This will start the sharing loop. Head over to your <a href="http://platform.kalavai.net">online account</a> to see more details, by selecting <code>Share your device</code> option. All your devices will appear there, along with the shared time and specs.</p>
-<p><img alt="Share status" src="../assets/images/share_status.png" /></p>
+<h1 id="kalavai-a-marketplace-for-computation-to-make-ai-accessible">Kalavai: a marketplace for computation to make AI accessible</h1>
+<h2 id="accessible-ai-for-all">Accessible AI for all</h2>
+<h2 id="a-community-owned-cloud">A community-owned cloud</h2>
 
 
 
