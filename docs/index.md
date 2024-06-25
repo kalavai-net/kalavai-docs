@@ -1,13 +1,35 @@
-# Welcome to MkDocs
+# Welcome to Kalavai
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+[Work in progress]
 
-## Commands
+##### `Kalavai` is a marketplace for computation that solves the problem of inaccessible AI using consumer device hardware from our users. _Think Airbnb, but for computation_.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
+
+## The problem: inaccessible AI
+
+Despite the hype of new models, **AI remains hard to leverage in real world scenarios**. We've been there, in startups, as AI developers. We have experienced how **expensive the hardware is** to procure; we've felt frustrated with **cloud providers rationing GPUs**; we've wasted countless hours in **devops rabbit-holes** configuring and managing multiple machines, distracted away from the actual fun of AI. All of this makes AI inaccessible for most.
+
+
+## `Kalavai`: easy infrastructure on a community-owned cloud
+
+* As an AI developer **you have access affordable infrastructure** to run and fine tune AI models
+* As a host, you **earn by sharing** your devices
+
+
+### Want to know more?
+
+We get it, you are curious. Check out our [full write up](concepts.md) for more details on Kalavai's vision.
+
+
+## Ready to join the revolution
+
+* Get [sharing your device](hosts.md)
+* Use Kalavai to support your [AI work](developers.md)
+* Have a question? Check the answers to [commonly asked questions](faqs.md)
+
+---
+
 
 ## Project layout
 

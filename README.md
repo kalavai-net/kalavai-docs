@@ -10,6 +10,8 @@ pip install -r requirements.txt
 
 ## Contribute to the docs
 
+Add icons: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/?h=icons#with-colors-mkdocsyml
+
 ### Test changes
 
 Run locally:
