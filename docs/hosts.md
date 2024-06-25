@@ -1,3 +1,10 @@
+---
+tags:
+  - kalavai-client
+  - share
+  - install
+---
+
 # Share your device
 
 The Kalavai-client is an app that allows you to control when and how to share your device. To get started with sharing, you'll need your kalavai account credentials. Click below to create one. Then you are ready to install and run the kalavai-client, which will let you share your device's spare capacity with the world and earn!

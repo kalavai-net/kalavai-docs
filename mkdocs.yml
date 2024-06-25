@@ -14,11 +14,23 @@ theme:
     - navigation.instant
     - navigation.instant.progress
   palette:
-    - scheme: slate
+  # Palette toggle for dark mode
+    - scheme: default
+      primary: black
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
 
 markdown_extensions:
   - attr_list
+
+plugins:
+  - search
+  - tags
   

@@ -1,8 +1,6 @@
 # Welcome to Kalavai
 
-[Work in progress]
-
-##### `Kalavai` is a marketplace for computation that solves the problem of inaccessible AI using consumer device hardware from our users. _Think Airbnb, but for computation_.
+`Kalavai` is a marketplace for computation that solves the problem of inaccessible AI using consumer device hardware from our users. _Think Airbnb, but for computation_.
 
 ---
 
@@ -11,7 +9,7 @@
 Despite the hype of new models, **AI remains hard to leverage in real world scenarios**. We've been there, in startups, as AI developers. We have experienced how **expensive the hardware is** to procure; we've felt frustrated with **cloud providers rationing GPUs**; we've wasted countless hours in **devops rabbit-holes** configuring and managing multiple machines, distracted away from the actual fun of AI. All of this makes AI inaccessible for most.
 
 
-## `Kalavai`: easy infrastructure on a community-owned cloud
+## Easy infrastructure on a community-owned cloud
 
 * As an AI developer **you have access affordable infrastructure** to run and fine tune AI models
 * As a host, you **earn by sharing** your devices
