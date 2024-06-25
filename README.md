@@ -8,10 +8,22 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-Build docs:
+## Contribute to the docs
 
-mkdocs new kalavai
+### Test changes
 
-Run:
-
+Run locally:
+```bash
 mkdocs serve
+```
+
+### Build docs to GitHub pages:
+
+```bash
+mkdocs gh-deploy
+```
+
+This will push a PR to the gh-pages branch, which can be approved / merged. Once it is, the new changes will be published at https://kalavai-net.github.io/kalavai-docs/
+
+
+
