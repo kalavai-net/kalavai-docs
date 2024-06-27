@@ -3,6 +3,7 @@ tags:
   - kalavai-client
   - share
   - install
+  - requirements
 ---
 
 # Share your device
