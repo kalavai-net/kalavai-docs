@@ -36,7 +36,57 @@ curl -sfL https://raw.githubusercontent.com/kalavai-net/kalavai-client/main/scri
 
 ## Install (Windows)
 
-[Coming soon!]
+[Work in progress]
+
+### Pre-requisites
+
+- If you have an NVIDIA GPU, make sure your drivers are up to date. Check in the command line nvidia-smi to see if your device is being recognised. The output should look similar to this:
+```
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.67                 Driver Version: 550.67         CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3050 ...    Off |   00000000:01:00.0 Off |                  N/A |
+| N/A   41C    P8              6W /   60W |       9MiB /   4096MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A      2067      G   /usr/lib/xorg/Xorg                              4MiB |
++-----------------------------------------------------------------------------------------+
+```
+
+
+### Install
+
+1. Open your PowerShell
+2. Install and update Windows Subsystem Linux (WSL)
+```bash
+wsl --install
+```
+
+3. Update kernel
+```bash
+wsl --update
+```
+
+4. Enter the VM
+```bash
+wsl
+```
+
+5. Install the kalavai client app:
+```bash
+curl -sfL https://raw.githubusercontent.com/kalavai-net/kalavai-client/main/scripts/install_client.sh | bash -
+```
+
 
 
 ## Use kalavai-client
