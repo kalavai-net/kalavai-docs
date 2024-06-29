@@ -335,6 +335,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Install (Windows)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pre-requisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-requisites
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -425,6 +449,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Install (Windows)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pre-requisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-requisites
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -500,6 +548,31 @@
 </code></pre>
 <h2 id="install-windows">Install (Windows)</h2>
 <p>[Work in progress]</p>
+<h3 id="pre-requisites">Pre-requisites</h3>
+<ul>
+<li>If you have an NVIDIA GPU, make sure your drivers are up to date. Check in the command line nvidia-smi to see if your device is being recognised. The output should look similar to this:</li>
+</ul>
+<pre><code>+-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.67                 Driver Version: 550.67         CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3050 ...    Off |   00000000:01:00.0 Off |                  N/A |
+| N/A   41C    P8              6W /   60W |       9MiB /   4096MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A      2067      G   /usr/lib/xorg/Xorg                              4MiB |
++-----------------------------------------------------------------------------------------+
+</code></pre>
+<h3 id="install">Install</h3>
 <ol>
 <li>Open your PowerShell</li>
 <li>Install and update Windows Subsystem Linux (WSL)</li>
