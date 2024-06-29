@@ -470,6 +470,12 @@
       <span class="md-tag">install</span>
     
   
+    
+    
+    
+      <span class="md-tag">requirements</span>
+    
+  
 </nav>
 
 
@@ -493,7 +499,28 @@
 <pre><code class="language-bash">curl -sfL https://raw.githubusercontent.com/kalavai-net/kalavai-client/main/scripts/install_client.sh | bash -
 </code></pre>
 <h2 id="install-windows">Install (Windows)</h2>
-<p>[Coming soon!]</p>
+<p>[Work in progress]</p>
+<ol>
+<li>Open your PowerShell</li>
+<li>Install and update Windows Subsystem Linux (WSL)</li>
+</ol>
+<pre><code class="language-bash">wsl --install
+</code></pre>
+<ol>
+<li>Update kernel</li>
+</ol>
+<pre><code class="language-bash">wsl --update
+</code></pre>
+<ol>
+<li>Enter the VM</li>
+</ol>
+<pre><code class="language-bash">wsl
+</code></pre>
+<ol>
+<li>Install the kalavai client app:</li>
+</ol>
+<pre><code class="language-bash">curl -sfL https://raw.githubusercontent.com/kalavai-net/kalavai-client/main/scripts/install_client.sh | bash -
+</code></pre>
 <h2 id="use-kalavai-client">Use kalavai-client</h2>
 <p>Once it's installed, run the CLI app with:</p>
 <pre><code class="language-bash">kalavai --help
